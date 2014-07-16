@@ -1,0 +1,144 @@
+// Sections
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+// Intro
+
+.intro-section {
+	background-color: @blue-dark;
+	color: @light;
+	display: table;
+	height: 100%;
+	position: relative;
+	text-align: center;
+	width: 100%;
+
+	.container {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.scroll-btn {
+		position: absolute;
+		left: 50%;
+		bottom: 5%;
+		display: inline-block;
+		margin-top: -26.5px;
+		margin-left: -26.5px;
+
+		i {
+			font-size: 52px;
+			opacity: 0.65;
+
+			&:hover {	opacity: 1; }
+		}
+	}
+}
+
+// About
+.about-section {
+	background-color: @light;
+	height: auto;
+	display: table;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+
+	.container {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	a {
+		color: @blue-dark;
+	}
+}
+
+// Portfolio
+
+.portfolio-section {
+	background-color: @blue-dark;
+	color: @light;
+	height: auto;
+	padding: 75px 0;
+	text-align: center;
+}
+
+.project {
+	margin-bottom: 1.5em;
+
+	img {
+		border-radius: 4px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	h3 {
+		font-size: 1.2em;
+		margin: 0.5em 0;
+
+		i {
+			font-size: .8em;
+		}
+	}
+}
+
+// Contact
+
+.contact-section {
+	background-color: @light;
+	color: @gray-dark;
+	display: table;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+
+	.container {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	a {
+		color: @blue-dark;
+	}
+
+	.email {
+		font-size: 1.2em;
+	}
+
+	hr {
+		border-color: @gray-light;
+		width: 50%;
+	}
+
+	.social {
+		padding-top: 1em;
+
+		a {
+			text-decoration: none;
+		}
+
+		i {
+			font-size: 1.6em;
+			margin-right: 1em;
+			text-decoration: none;
+		}
+	}
+}
+
+// Media Queries
+
+@media(min-width: 767px) {
+
+	.portfolio-section {
+		padding: 150px 0;
+	}
+}

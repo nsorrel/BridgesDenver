@@ -1,0 +1,17 @@
+﻿Title: K-theme
+
+----
+
+Author: 11bits.es
+
+----
+
+Description: A one page Kirby theme
+
+----
+
+Keywords: kirby cms, theme
+
+----
+
+Copyright: © (date: Year) (link: http://11bits.es text: 11bits.es)

@@ -1,0 +1,42 @@
+// Variables
+
+// Colors
+
+@light: 				#fff;
+@light-alpha1: 	rgba(255,255,255,0.1);
+@light-alpha2: 	rgba(255,255,255,0.2);
+@gray: 					#bdc3c7;
+@gray-light: 		#cbcbcb;
+@gray-dark: 		lighten(#000, 15%);
+@blue-dark: 		#233240;
+@dark-alpha: 		rgba(0,0,0,0.2);
+
+// Typography
+
+@font-family: 	Helvetica, Arial, sans-serif;
+@font-size: 		16px;
+@line-height: 	1.57;
+@text-color: 		@blue-dark;
+
+@font-size-md: 	(@font-size * 1.125);
+@font-size-lg: 	(@font-size * 1.25);
+
+@headings-font-family: 	'Gentium Basic';
+@headings-font-weight: 	normal;
+@headings-line-height: 	1.2;
+@font-size-h1: 					3em;		
+@font-size-h2: 					1.875em;
+@font-size-h3: 					1.5em;
+@font-size-h4: 					1em;
+@font-size-h5: 					.83em;
+@font-size-h6: 					.75em;
+
+
+// Mixins
+
+.transition (@duration: 0.3s, @ease: ease-in-out) {
+    -webkit-transition: @duration @ease;
+    -moz-transition: @duration @ease;
+    -o-transition: @duration @ease; 
+    transition: @duration @ease;
+}

@@ -1,0 +1,13 @@
+﻿Title: ###Welcome Family
+
+----
+
+Location: 
+----
+
+Icon:fa-home
+
+----
+
+Info: New students who would like an American friend and some assistance in their first 3 days in America are encouraged to apply for a welcome host family.  Host families offer friendship, English assistance, basic arrival help (bank accounts, apartment finding, etc.) and a place to stay for up to 3 nights. The spots available are very limited.  A short application is required
+----

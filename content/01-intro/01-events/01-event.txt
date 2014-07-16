@@ -1,0 +1,6 @@
+event:
+Ultimate Frisbee @ Washington Park
+----
+eventtime:  #10am
+##Saturday, June 6, 2014
+----

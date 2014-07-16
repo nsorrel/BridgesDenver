@@ -1,0 +1,48 @@
+// Navigation
+
+.navbar {
+	background-color: @blue-dark;
+  margin-bottom: 0;
+
+  a {
+  	text-decoration: none;
+  }
+}
+
+.navbar-brand {	font-size: 20px; }
+
+.navbar-custom {
+
+	.nav li a:hover,
+	.nav li a:focus,
+	.nav li.active {
+    	background-color: @light-alpha2;
+	}
+}
+
+.navbar-toggle {
+	
+	.icon-bar {	background-color: @light;	}
+}
+
+@media(min-width: 768px) {
+
+	.navbar {
+		letter-spacing: 1px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		.transition(padding .5s);
+	}
+
+	.top-nav-collapse {
+		border-bottom: 1px solid @light-alpha1;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.navbar-toggle {
+		
+		.icon-bar {	background-color: @light;	}
+	}
+}
